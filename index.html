@@ -1,0 +1,315 @@
+<!--<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica Betty</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="custom-header text-white text-center py-3">
+        <h1>Óptica Betty</h1>
+        <p>¡Viendo el mundo con claridad!</p>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-navbar">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="banner">
+        <img src="bannervioleta.jpg" alt="Banner">
+    </section>
+    
+    <section id="home" class="container my-5">
+        <div class="jumbotron text-center">
+            <h2>Bienvenido a Óptica Betty</h2>
+            <p class="lema">Proveemos las mejores soluciones para tu vista</p>
+            <a href="#services" class="btn btn-primary">Ver Servicios</a>
+        </div>
+    </section>
+
+    <section id="banner" class="d-flex">
+        <img src="cuotas.png" alt="Banner" class="img-fluid w-70">
+        <img src="post.png" alt="Imagen Cuadrada" class="img-fluid w-25">
+    </section>
+
+    <section id="services" class="container my-5">
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="examens-de-vista.jpg" alt="Exámenes de Vista" class="img-fluid mb-3" style="max-width: 200px;">
+                <h3>Exámenes de Vista</h3>
+                <p>Realizamos exámenes completos de la vista para detectar problemas y prescribir lentes adecuados.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="optica.jpg" alt="Venta de Lentes" class="img-fluid mb-3" style="max-width: 250px;">
+                <h3>Venta de Lentes</h3>
+                <p>Amplia variedad de lentes de contacto y gafas a tu disposición, con las mejores marcas.</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="asesoramiento.jpg" alt="Asesoramiento" class="img-fluid mb-3" style="max-width: 200px;">
+                <h3>Asesoramiento</h3>
+                <p>Te ayudamos a elegir el mejor tipo de lentes y monturas que se adapten a tus necesidades y estilo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2 class="text-center">Sobre Nosotros</h2>
+        <div class="text-border">
+            <p>
+                En Óptica Betty, una empresa familiar argentina, nos dedicamos a ofrecer servicios ópticos de alta calidad. Con más de 30 años de experiencia en el sector, nos enorgullecemos de brindar una atención personalizada y profesional a cada uno de nuestros clientes.
+            </p>
+            <p>
+                Nuestro equipo de expertos está comprometido en ayudarte a mejorar tu visión y a encontrar las soluciones ópticas que mejor se adapten a tus necesidades. Ya sea a través de exámenes visuales completos, la selección de lentes de contacto, o la elección de monturas modernas y funcionales, estamos aquí para asegurarnos de que veas el mundo con la mayor claridad posible.
+            </p>
+            <p>
+                En Óptica Betty, valoramos la confianza y la satisfacción de nuestros clientes, y trabajamos día a día para mantener el legado de excelencia y cuidado que nuestra familia ha cultivado a lo largo de los años.
+            </p>
+            <p>
+                ¡Ven y descubre la diferencia que hace una atención verdaderamente personalizada!
+            </p>
+        </div>
+    </section>
+        
+    <style>
+        #about p {
+            margin-bottom: 20px; 
+        }
+    </style>
+    
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contáctanos</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    
+    <footer class="custom-footer text-white text-center text-lg-start py-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone"></i> Teléfono: (011) 1234-5678</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Av. Siempre Viva 742, Buenos Aires</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Ubicación</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.662355916769!2d-58.381593185232964!3d-34.603684980459155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf0322e17f%3A0xbffdf54f6d8fbb6f!2sAv.%20Siempre%20Viva%20742%2C%20C1043AAH%20CABA%2C%20Argentina!5e0!3m2!1sen!2sus!4v1618395063041!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li><a href="#" class="mr-3"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="mr-3"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="mr-3"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center mt-3">&copy; 2023 Óptica Betty. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>-->
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Óptica Betty - Tienda de Anteojos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="custom-header text-white text-center py-3">
+        <h1>Óptica Betty</h1>
+        <p>¡Viendo el mundo con claridad!</p>
+    </header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="custom-navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#shop">Tienda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">
+                        <i class="fas fa-shopping-cart"></i> Carrito
+                        <span class="badge badge-pill badge-primary">0</span> <!-- Muestra la cantidad de productos en el carrito -->
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        <i class="fas fa-sign-in-alt"></i> Iniciar Sesión
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="registro.html">
+                        <i class="fas fa-user-plus"></i> Registrarse
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Banner -->
+    <section id="banner">
+        <img src="bannervioleta.jpg" alt="Banner">
+    </section>
+    
+    <section id="home" class="container my-5">
+        <div class="jumbotron text-center">
+            <h2>Bienvenido a Óptica Betty</h2>
+            <p class="lema">Proveemos las mejores soluciones para tu vista</p>
+            <a href="#shop" class="btn btn-primary">Ver Tienda</a>
+        </div>
+    </section>
+
+    <section id="banner" class="d-flex">
+        <img src="cuotas.png" alt="Banner" class="img-fluid w-70">
+        <img src="post.png" alt="Imagen Cuadrada" class="img-fluid w-25">
+    </section>
+    
+
+    <section id="shop" class="container my-5">
+        <h2 class="text-center">Nuestra Tienda de Anteojos</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="anteojosnegros.jpg" alt="Anteojos Negros" class="img-fluid mb-3" style="max-width: 200px;">
+                <h3>Anteojos Negros</h3>
+                <p>Color: Negro</p>
+                <p>Precio: $3000</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="carey.jpg" alt="Anteojos Azules" class="img-fluid mb-3" style="max-width: 200px;">
+                <h3>Anteojos Carey</h3>
+                <p>Color: Animal Print</p>
+                <p>Precio: $3200</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="anteojosrosas.jpg" alt="Anteojos Rojos" class="img-fluid mb-3" style="max-width: 200px;">
+                <h3>Anteojos Rojos</h3>
+                <p>Color: Rojo</p>
+                <p>Precio: $3500</p>
+                <button class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2 class="text-center">Sobre Nosotros</h2>
+        <div class="text-border">
+            <p>
+                En Óptica Betty, una empresa familiar argentina, nos dedicamos a ofrecer servicios ópticos de alta calidad. Con más de 30 años de experiencia en el sector, nos enorgullecemos de brindar una atención personalizada y profesional a cada uno de nuestros clientes.
+            </p>
+            <p>
+                Nuestro equipo de expertos está comprometido en ayudarte a mejorar tu visión y a encontrar las soluciones ópticas que mejor se adapten a tus necesidades. Ya sea a través de exámenes visuales completos, la selección de lentes de contacto, o la elección de monturas modernas y funcionales, estamos aquí para asegurarnos de que veas el mundo con la mayor claridad posible.
+            </p>
+            <p>
+                ¡Ven y descubre la diferencia que hace una atención verdaderamente personalizada!
+            </p>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contáctanos</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </section>
+    
+    <footer class="custom-footer text-white text-center text-lg-start py-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone"></i> Teléfono: (011) 1234-5678</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: Av. Siempre Viva 742, Buenos Aires</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5>Ubicación</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.662355916769!2d-58.381593185232964!3d-34.603684980459155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf0322e17f%3A0xbffdf54f6d8fbb6f!2sAv.%20Siempre%20Viva%20742%2C%20C1043AAH%20CABA%2C%20Argentina!5e0!3m2!1sen!2sus!4v1618395063041!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociales</h5>
+                    <ul class="list-unstyled d-flex justify-content-center">
+                        <li><a href="#" class="mr-3"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="mr-3"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="mr-3"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center mt-3">&copy; 2023 Óptica Betty. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="ruta/del/archivo/carrito.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

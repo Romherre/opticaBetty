@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background:#b49bd3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+/* footer {
+    background: #f8f9fa;
+    padding: 10px 0;
+} */
+
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd; /* Opcional: Agrega un borde para mejor visibilidad */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional: Agrega sombra para mejor visibilidad */
+}
+
+
+
+.custom-header {
+    background-color: #079fe6; /* Color personalizado para el fondo del header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Asegúrate de que no haya conflictos con Bootstrap */
+.bg-primary {
+    background-color: #6916ce !important; /* Utiliza !important si es necesario para sobrescribir el color */
+}
+
+img.img-fluid {
+    max-width: 200px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #fe1d8c;
+    border-radius: .3rem;
+}
+
+
+h2{
+    margin-bottom: 30px;
+    color:#0f0f0f;
+}
+
+h3{
+margin-top: 30px;
+font-size: 25px;
+}
+
+.lema {
+    color: white; /* Color del texto blanco */
+    font-weight: bold; /* Texto en negrita */
+}
+
+
+p{
+    font-size: 14px;
+}
+
+
+#custom-navbar {
+    background-color: yellow; /* Fondo amarillo para la navbar */
+}
+
+#custom-navbar .navbar-brand,
+#custom-navbar .nav-link {
+    color:#2b2c2c;
+    font-weight: bold;
+}
+
+#custom-navbar .nav-link:hover {
+    color: rgb(255, 255, 255); /* Color de texto al pasar el ratón */
+}
+
+#custom-navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    /* Color de los iconos de la navbar-toggler */
+}
+
+#custom-navbar .nav-item.active .nav-link {
+    font-weight: bold;
+    color: rgb(53, 53, 53); /* Color de texto para el enlace activo */
+}
+
+.navbar-expand-lg .navbar-collapse {
+    background-color: orange;
+}
+
+.bg-light {
+    background-color:orange !important;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+img.img-fluid {
+    max-width: 857px;
+    height: auto;
+}
+
+
+.custom-footer {
+    background-color: #007bff;
+    color: white;
+    /* padding: 20px 0; */
+    width: 100%;
+    position: relative;
+    /* left: 0;
+    right: 0; */
+}
+/* 
+.custom-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li i {
+    margin-right: 8px;
+}
+
+footer .fab {
+    font-size: 24px;
+    color: #555;
+}
+
+footer .fab:hover {
+    color: #ffffff;
+}
+
+
+h5{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+
+.text-border {
+    border: 2px solid #007bff; /* Cambia el color y grosor del borde según sea necesario */
+    padding: 20px; /* Espacio entre el borde y el texto */
+    border-radius: 8px; /* Opcional: añade esquinas redondeadas */
+    background-color: #f2f7f8; /* Opcional: añade un color de fondo si lo deseas */
+}
+
+
+
+.btn-comprar {
+    margin-top: 10px;
+}
+
+
+
+/* #custom-navbar {
+    width: 150%;
+} */
+
